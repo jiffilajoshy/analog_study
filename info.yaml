@@ -54,10 +54,10 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "vco_cntrol"
-  ua[1]: "vco_out_div10_rf1_mix"
-  ua[2]: "rf2 mix"
-  ua[3]: "if_out_mix"
+  ua[0]: "if_out_mix"
+  ua[1]: "rf2 mix"
+  ua[2]: "vco_out_div10_rf1_mix"
+  ua[3]: "vco_cntrol"
   ua[4]: ""
   ua[5]: ""
 
