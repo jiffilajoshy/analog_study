@@ -46,11 +46,11 @@ pinout:
   # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
+  uio[2]: "4th_bit_dac"
+  uio[3]: "3rd_bit_dac"
+  uio[4]: "2nd_bit_dac"
+  uio[5]: "1st_bit_dac"
+  uio[6]: "enable_dac"
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
@@ -58,7 +58,7 @@ pinout:
   ua[1]: "rf2 mix"
   ua[2]: "vco_out_div10_rf1_mix"
   ua[3]: "vco_cntrol"
-  ua[4]: ""
+  ua[4]: "dac_out"
   ua[5]: ""
 
 # Do not change!
