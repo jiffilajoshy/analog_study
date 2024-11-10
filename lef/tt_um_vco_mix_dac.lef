@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO TOP
+MACRO tt_um_vco_mix_dac
   CLASS BLOCK ;
-  FOREIGN TOP ;
+  FOREIGN tt_um_vco_mix_dac ;
   ORIGIN -0.985 0.010 ;
   SIZE 152.090 BY 225.790 ;
   PIN inv_out_90
@@ -10411,6 +10411,6 @@ MACRO TOP
         RECT 79.935 66.915 81.935 68.335 ;
         RECT 109.935 66.915 111.935 68.335 ;
   END
-END TOP
+END tt_um_vco_mix_dac
 END LIBRARY
 
