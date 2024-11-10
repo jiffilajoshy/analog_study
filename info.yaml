@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "tt_um_analog_study"      # Project title
-  author:       "JIFFIL A JOSHY"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Analog mix dac vco"      # One line description of what your project does
+  title:        "tt_um_vco_mix_dac"      # Project title
+  author:       "Jiffil A Joshy"      # Your name
+  discord:      "Jiffil"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Analog Mixer - VCO - DAC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,11 +11,11 @@ project:
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
-  analog_pins: 4        # Valid values: 0 to 6
+  analog_pins: 5        # Valid values: 0 to 6
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_analog_study"
+  top_module:  "tt_um_vco_mix_dac"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -45,7 +45,7 @@ pinout:
 
   # Bidirectional pins
   uio[0]: ""
-  uio[1]: ""
+  uio[1]: "enable_dac_out_sw"
   uio[2]: "4th_bit_dac"
   uio[3]: "3rd_bit_dac"
   uio[4]: "2nd_bit_dac"
@@ -55,9 +55,9 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "if_out_mix"
-  ua[1]: "rf2 mix"
+  ua[1]: "rf2_mix"
   ua[2]: "vco_out_div10_rf1_mix"
-  ua[3]: "vco_cntrol"
+  ua[3]: "vco_ctrl"
   ua[4]: "dac_out"
   ua[5]: ""
 
