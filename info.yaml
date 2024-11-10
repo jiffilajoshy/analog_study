@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "tt_analog_study"      # Project title
+  title:        "tt_um_analog_study"      # Project title
   author:       "JIFFIL A JOSHY"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Analog mix dac vco"      # One line description of what your project does
